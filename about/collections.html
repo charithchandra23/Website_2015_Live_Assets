@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kathy Smith</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel='stylesheet' href='../css/style.css' type='text/css'>
+	<link href="../css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+    
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="../index.html">Kathy Smith</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../about/biography.html" class="focused">About</a></li>
+                    <li><a href="../works/current_work.html">Works</a></li>
+                    <li><a href="../exhibitions.html">Exhibitions</a></li>
+                    <li><a href="../works/current_work.html">Slippages | Grace</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../credits.html">Credits</a></li>
+                </ul>
+            </div>
+		</div>
+	</nav>
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="biography.html">Biography</a>
+                </li>
+                <li>
+                    <a href="artist_statement.html">Artist Statement</a>
+                </li>
+                <li>
+                    <a href="curriculum_vitae.html">Curriculum Vitae</a>
+                </li>
+                <li>
+                    <a href="publications.html">Citations</a>
+                </li>
+                <li>
+                    <a href="collections.html" class="focused">Collections</a>
+                </li>
+                <li>
+                    <a href="academic.html">Academic</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                    	<div class="mobile-nav">
+                            <ul>
+                                <li>
+                                    <a href="biography.html">Biography</a> | 
+                                </li>
+                                <li>
+                                    <a href="artist_statement.html">Artist Statement</a> | 
+                                </li>
+                                <li>
+                                    <a href="curriculum_vitae.html">Curriculum Vitae</a> | 
+                                </li>
+                                <li>
+                                    <a href="publications.html">Publications</a> | 
+                                </li>
+                                <li>
+                                    <a href="collections.html">Collections</a> | 
+                                </li>
+                                <li>
+                                    <a href="academic.html">Academic</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"> <span id="arrow_left" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span id="arrow_right" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        <h4>Collections and Distribution </h4>
+                        <p>Charugundla Collection Indefinable Moods Digital prints, Blu-ray Delirium Blu-ray 2012</p>
+						<p><A TARGET="new" href="http://aso.gov.au/titles/shorts/indefinable-moods/clip1/">Indefinable Moods ScreenSound Online Exhibition</a> curated 2011</p>	
+						<p>Animations 1983 – 2015 documented on Dlux Media Arts Archive Website 2006</p>
+						<p>Indefinable Moods Sundance Film Collection UCLA 2002	</p>
+						<p>Website www.kathymoods.org archived for permanent collection by PANDORA Australia 2001</p>
+						<p>Animations (see filmography) acquired for collection by the National Sound & Film Archive, Screensound Canberra, Australia 1998 - 2001	</p>
+						<p>Animations (on tape) accessioned into the Museum of Modern Art Film Library New York 1994	</p>
+						<p>Living on the COMET, distributed world-wide by Film Australia 1993</p>
+						<p>Living on the COMET, purchased by SBS Television 	</p>
+						<p>Change of PLACE, distributed by the Australian Film Institute 1987	</p>
+						<p>Change of PLACE, all artwork, paintings and photographs, negative & film collected and housed by the National Sound & Film Archive, Canberra 1986 </p>
+						<p>Animations, (see filmography) acquired on 3/4" tape by the Visual Arts Board of the Australia Council 1986</p>
+						<p>Ayers Rock Animation & A Figure in front of a Painting, purchased by the Australian National Gallery, Canberra 1986</p>
+						<p>UNDER WYLIES, 5 x 6 ft. oil painting on canvas, purchased by the Sydney Morning Herald Newspaper, Fairfax & Sons Ltd. 1985</p>
+						<p><br/></p>
+						<p>For exhibition and distribution contact: kathy@imoods.org</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="../js/script.js"></script>
+	<script>
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	        $("#arrow_left").toggleClass("glyphicon-chevron-right", 300);
+	        $("#arrow_right").toggleClass("glyphicon-chevron-left", 300);
+	        // $("#arrow_right").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-left", 300);
+	    });
+	</script>
+</body>
+</html>

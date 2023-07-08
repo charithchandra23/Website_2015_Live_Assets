@@ -1,0 +1,4 @@
+%% [Wed Sep 16 23:51:39 2015] GET /index.cgi HTTP/1.1
+%% 404 /z/dr/imoods/us1/index.cgi
+%error
+script not found or unable to stat

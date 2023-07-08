@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kathy Smith</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel='stylesheet' href='css/style.css' type='text/css'>
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+    
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="../index.html">Kathy Smith</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="about/biography.html">About</a></li>
+					<li><a href="works/current_work.html">Works</a></li>
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+					<li><a href="works/current_work.html">Slippages | Grace</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="credits.html">Credits</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="#" class="focused">Credits & Copyright</a>
+                </li>
+              
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"> <span id="arrow_left" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span id="arrow_right" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        <h4>Credits</h4>
+                        <p>Web Developed by Dizhen Lyu</p>
+                        <p><a href="https://www.facebook.com/dizhen.lu.9">Dizhen Lu Facebook</a></p>
+                        <h4>Open Source Libraries Used:</h4>
+                        <p>JQuery Fadeshow by terwanerik, Start Bootstrap - Simple Sidebar by Iron Summit Media, Lightbox by Lokesh Dhakar</p>
+                        <h4>Copyright Notice</h4>
+                        <p>Please note that all images, text, sound and animations are © Copyright Kathy Smith.</p>
+                        <p><strong>Please respect artist’s moral and legal rights.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	        $("#arrow_left").toggleClass("glyphicon-chevron-right", 300);
+	        $("#arrow_right").toggleClass("glyphicon-chevron-left", 300);
+	        // $("#arrow_right").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-left", 300);
+	    });
+	</script>
+</body>
+</html>

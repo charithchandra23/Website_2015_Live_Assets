@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kathy Smith</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel='stylesheet' href='css/style.css' type='text/css'>
+	<link rel="stylesheet" href="css/simple-sidebar.css">
+	<link rel="stylesheet" href="css/jquery.fadeshow-0.1.1.min.css" />
+
+</head>
+    
+<body>
+
+    <div class="exhibition"></div>
+              
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/jquery.fadeshow-0.1.1.min.js"></script>
+	<script src="js/dissolving_slider.js"></script>
+	<script>
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	        $("#arrow_left").toggleClass("glyphicon-chevron-right", 300);
+	        $("#arrow_right").toggleClass("glyphicon-chevron-left", 300);
+	        // $("#arrow_right").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-left", 300);
+	    });
+	</script>
+</body>
+</html>

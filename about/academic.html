@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kathy Smith</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel='stylesheet' href='../css/style.css' type='text/css'>
+	<link href="../css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+    
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="../index.html">Kathy Smith</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="../about/biography.html" class="focused">About</a></li>
+					<li><a href="../works/current_work.html">Works</a></li>
+					<li><a href="../exhibitions.html">Exhibitions</a></li>
+					<li><a href="../works/current_work.html">Slippages | Grace</a></li>
+					<li><a href="../contact.html">Contact</a></li>
+					<li><a href="../credits.html">Credits</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="biography.html">Biography</a>
+                </li>
+                <li>
+                    <a href="artist_statement.html">Artist Statement</a>
+                </li>
+                <li>
+                    <a href="curriculum_vitae.html">Curriculum Vitae</a>
+                </li>
+                <li>
+                    <a href="publications.html">Citations</a>
+                </li>
+                <li>
+                    <a href="collections.html">Collections</a>
+                </li>
+                <li>
+                    <a href="academic.html" class="focused">Academic</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            	<div class="row">
+	                <div class="col-lg-7">
+	                	<div class="mobile-nav">
+                            <ul>
+                                <li>
+                                    <a href="biography.html">Biography</a> | 
+                                </li>
+                                <li>
+                                    <a href="artist_statement.html">Artist Statement</a> | 
+                                </li>
+                                <li>
+                                    <a href="curriculum_vitae.html">Curriculum Vitae</a> | 
+                                </li>
+                                <li>
+                                    <a href="publications.html">Publications</a> | 
+                                </li>
+                                <li>
+                                    <a href="collections.html">Collections</a> | 
+                                </li>
+                                <li>
+                                    <a href="academic.html">Academic</a>
+                                </li>
+                            </ul>
+                        </div>
+	                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"> <span id="arrow_left" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span id="arrow_right" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+	                    <h4>Academic</h4>
+	                    <p>Kathy is a tenured full Professor at the new <A TARGET="new" href="https://expandedanimation.usc.edu">Expanded Animation Research + Practice (XA Program).</a> Kathy was a faculty member at the John C. Hench Division of Animation & Digital Arts starting in 1998</a>, where she chaired the Division from Fall 2004 to Spring 2009 and from Fall 2010 until Fall 2014 establishing the BA in animation and digital arts, creating the semester abroad with SACI College of Art & Design Florence, Italy and establishing the research collaboration with the Wrigley Institute for Environmental Studies in 2004. </p>
+	                    <p>Kathy was Co-Chair of <A TARGET="new" href="https://expandedanimation.usc.edu/research/">REDEFINING ANIMATION</a> The 25th Annual Conference of the Society for Animation Studies hosted at the School of Cinematic Arts, USC 2013. </p>
+	                    <p>Kathy teaches <A TARGET="new" href="https://expandedanimation.usc.edu/research/">Expanded Animation</a>, Master’s Thesis, <A TARGET="new" href="https://ctan522seminar2017.wordpress.com/">Animation Seminar</a> and <A TARGET="new" href="https://expandedanimation.usc.edu/research/">Contemporary Topics Animation, Dreams & Consciousness.</a></p>
+	                    <p>Her teaching focuses on expanded animation practice and animation as consciousness.</p>
+	                    <h5 style="display:inline"><i>University and Academic Awards</i></h5>
+	                    <p>
+						NVidia Hardware Grant 2022<br/>
+						USC Research Collaboration Fund Award  2021<br/>
+						SCA Mentoring Award Graduate Student Council 2017<br/>
+						Mellon Award for Mentoring Graduate Students University of Southern California 2013<br/>
+						Impact Award for Education from Adobe Sytems Inc. 2011<br/>
+						Interdisciplinary Zumberge Research Grant, University of Southern California 2010<br/>
+						Interdisciplinary Zumberge Research Grant, University of Southern California 2008<br/>
+						Phi Kappa Phi Faculty Recognition Award in the Creative Arts, University of Southern California 2005<br/>
+						Individual Zumberge Research Grant University of Southern California 2005<br/>
+						</p>
+						<p><br/><A TARGET="new" href="http://cinema.usc.edu/news/article.cfm?id=11902">USC interview</a> with Smith </p>
+						<p><A TARGET="new" href="http://www.scanlines.net/node/1537">Scanlines</a> Interviews with Smith </p>
+						
+
+	                </div>
+	            </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="../js/script.js"></script>
+	<script>
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	        $("#arrow_left").toggleClass("glyphicon-chevron-right", 300);
+	        $("#arrow_right").toggleClass("glyphicon-chevron-left", 300);
+	        // $("#arrow_right").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-left", 300);
+	    });
+	</script>
+</body>
+</html>

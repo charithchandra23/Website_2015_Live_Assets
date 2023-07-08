@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kathy Smith</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel='stylesheet' href='../css/style.css' type='text/css'>
+	<link href="../css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+    
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="../index.html">Kathy Smith</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../about/biography.html" class="focused">About</a></li>
+                    <li><a href="../works/current_work.html">Works</a></li>
+                    <li><a href="../exhibitions.html">Exhibitions</a></li>
+                    <li><a href="../works/current_work.html">Slippages | Grace</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../credits.html">Credits</a></li>
+                </ul>
+            </div>
+		</div>
+	</nav>
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="biography.html">Biography</a>
+                </li>
+                <li>
+                    <a href="artist_statement.html" class="focused">Artist Statement</a>
+                </li>
+                <li>
+                    <a href="curriculum_vitae.html">Curriculum Vitae</a>
+                </li>
+                <li>
+                    <a href="publications.html">Citations</a>
+                </li>
+                <li>
+                    <a href="collections.html">Collections</a>
+                </li>
+                <li>
+                    <a href="academic.html">Academic</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="mobile-nav">
+                            <ul>
+                                <li>
+                                    <a href="biography.html">Biography</a> | 
+                                </li>
+                                <li>
+                                    <a href="artist_statement.html">Artist Statement</a> | 
+                                </li>
+                                <li>
+                                    <a href="curriculum_vitae.html">Curriculum Vitae</a> | 
+                                </li>
+                                <li>
+                                    <a href="publications.html">Publications</a> | 
+                                </li>
+                                <li>
+                                    <a href="collections.html">Collections</a> | 
+                                </li>
+                                <li>
+                                    <a href="academic.html">Academic</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"> <span id="arrow_left" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span id="arrow_right" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        <h4>Artist Statement</h4>
+                        <p>My work is an attempt to convey the mystery of existence through the non-linear narrative of dreams. I am fascinated with the human experience and how this is processed through our physical senses and interpreted via the neurological pathways in the brain, what images are retained and what narratives are formed during our conscious and unconscious moments.</p>
+                        <p>I am concerned with the universal symbolism of dream landscapes and the relationship of the human psyche to the environment regardless of its physical location or form. The potential for conveying a metaphysical experience through the media of animation, installation, and sound has always inspired me. Structurally I am interested in the infinite possibilities of any one moment, the inner experience of time running simultaneously with the concurrent or divergent time of outer happenings.</p>
+                        <p>Artistically as a painter I have always been driven to communicate more than just a static image. The mental and conceptual process of painting is something that I have always tried to convey through the exhibition format itself. When exhibiting my work in an installation, I incorporate sound into the exhibition space; additionally, I construct collage maps to show how the images evolved and fitted together sequentially. The discovery of animation was a revelation for me: for the first time I could convey the internal thought processes of painting and drawing through a temporal medium.</p>
+                        <p>On its own, painting can define a concept by composition, color, and layering. What has always fascinated me about animation is its potential to capture or provoke a thought via kinetic energy and sound. Animation, by its very nature, adds another dimension to painting by adding temporal, spatial, and aural movement and space to static images.</p>
+                        <p>Constantly moving, animation allows the viewer to become part of an artwork’s creation. The brushstrokes, shapes, and ideas are seen, passed by, and arrived at, - an animated work concretizes the thought process that creates a static work by incorporating the physical senses of movement and sound.</p>
+                        <p>I truly believe the art form of animation developed as a way to reflect our own physical and mental evolutionary process. The infinite connection to everything in existence is the underlying force that makes animation a powerful medium for conveying complex ideas, consciousness, dreams and emotions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="../js/script.js"></script>
+	<script>
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	        $("#arrow_left").toggleClass("glyphicon-chevron-right", 300);
+	        $("#arrow_right").toggleClass("glyphicon-chevron-left", 300);
+	        // $("#arrow_right").removeClass("glyphicon-chevron-right").addClass("glyphicon-chevron-left", 300);
+	    });
+	</script>
+</body>
+</html>
